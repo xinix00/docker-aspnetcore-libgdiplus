@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:2.0.8
+FROM microsoft/dotnet:2.1.0-aspnetcore-runtime
 
 RUN apt-get update \
     && apt-get -y install libgdiplus libc6-dev \
