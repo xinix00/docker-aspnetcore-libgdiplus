@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:5.0.9
+FROM mcr.microsoft.com/dotnet/aspnet:5.0.9
 
 RUN apt-get update \
     && apt-get -y install libgdiplus libc6-dev \
